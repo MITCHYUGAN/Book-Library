@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="book-header">
+        <h1>Book Library</h1>
+        <button class="openNewBookModal">New Book</button>
+        <form class="bookInputs">
+            <label for="book_title">Book Title</label>
+            <input type="text" id="book_title">
+            <label for="book_author">Book Author</label>
+            <input type="text" id="book_author">
+            <label for="book_pages">Book Pages</label>
+            <input type="text" id="book_pages">
+            <label for="if_read">Have you read the book?</label>
+            <input type="checkbox" id="if_read">
+            <button class="addNewBookBtn">Add Book</button>
+        </form>
+    </header>
+
+    <div class="booklibrary">
+        <div class="book">
+            <h2>Display Book</h2>
+            <h3>Display Author</h3>
+            <p>0 Pages <span>* Not Read</span></p>
+            <button>change status</button>
+            <button>remove book</button>
+        </div>
+    </div>
+
+    <script src="scripts.js">
+
+    </script>
+</body>
+</html>
